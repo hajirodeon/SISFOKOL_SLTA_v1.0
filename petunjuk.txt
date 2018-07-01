@@ -1,0 +1,68 @@
+SISTEM INFORMASI SEKOLAH (SISFOKOL)
+UNTUK SLTA Versi 1.0
+===================================================================================
+Dikembangkan oleh OPEN SOURCE HAJIROBE (Agus Muhajir, hajirodeon@yahoo.com) dan
+didistribusikan oleh BIASAWAE PRODUCTION (http://www.biasawae.com).
+
+Sistem Informasi ini berbasis OPEN SOURCE dengan lisensi GNU/GPL. 
+
+
+SPESIFIKASI
+Berikut spesifikasi untuk menjalankan Sistem Informasi ini,
+- Komputer dengan Processor minimal 600 MHz, 128 RAM, 20GB HD.
+- Sistem Operasi minimal : Windows 98 (Jika Menggunakan Microsoft) atau 
+  Linux dengan kernel 2.4 . Dengan syarat, terpasang sebuah Browser (Internet 
+  Explorer, Mozilla, FireFOX, dan lain sebagainya), menggunakan PHP dengan versi 
+  minimal 4.3.11 . Database Server MySQL, minimal 4.0.18 . PHPMyAdmin minimal versi 
+  2.2.1 .
+
+
+FASILITAS
+-Pengaturan data guru, pegawai, siswa, walikelas dan orang tua siswa
+-Data ruang kelas, pelajaran, ekstra, agenda sampai dengan jadwal
+-Penerimaan siswa dan penempatannya
+-Pendataan inventaris
+-Keuangan
+-Kepegawaian
+
+
+INSTALASI
+- Salin semua isi folder source,
+- Set Apache, kemudian jalankan phpmyadmin untuk pertama kali pada browser
+	(http://localhost/phpmyadmin)
+- Buatlah database bernama sisfokol_slta_v1 (lihat isi dari file sisfokol.php pada
+  folder Connections. Lalu import database-nya yang ada di folder db.
+- Atur konfigurasi file config.php pada folder include.
+- Bila instalasi berhasil, maka web siap dioperasikan.
+
+
+
+MEKANISME
+Sistem Informasi Sekolah ini mempunyai 6(enam) akses. Yakni Administrator, Pegawai, 
+Guru, Wali Kelas, Siswa dan Orang Tua Siswa.
+
+Untuk Administrator, default akses --> username dan password adalah "admin" 
+	(Tanpa tanda kutip).
+
+Untuk Pegawai, default akses --> username dan password adalah Nomor Induk Pegawai.
+
+Untuk Guru, default akses --> username dan password adalah Nomor Induk Pegawai.
+
+Untuk Wali Kelas, default akses --> username dan password adalah Nomor Induk 
+	Pegawai.
+
+Untuk Siswa, default akses --> username dan password adalah Nomor Induk Siswa.
+
+Untuk Orang Tua Siswa, default akses --> username dan password adalah Nomor Induk 
+	Siswa.
+
+
+===================================================================================
+Selamat Mencoba.
+
+Jika ada kekurangan, pertanyaan, bugs atau lainnya, hubungi saja : 
+OPEN SOURCE HAJIROBE di www.biasawae.com atau 
+email ke Agus Muhajir (hajirodeon@yahoo.com).
+
+Salam.
+
